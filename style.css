@@ -45,3 +45,10 @@ main.container:not(:has(.hero)){padding-block:72px}
 main.container > .hero {
     margin-top: 30px;
 }
+.travel-photo-01 img {
+    object-fit: contain;
+}
+
+.travel-photo-01:hover img {
+    transform: none;
+}
